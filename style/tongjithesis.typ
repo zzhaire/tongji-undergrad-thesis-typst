@@ -150,22 +150,27 @@
   }))
   counter(page).update(1)
 
-  make-abstract(
-    title: title,
-    abstract: abstract,
-    keywords: keywords,
-    prompt: ("摘要", "关键词："),
-  )
-  pagebreak()
-
-  make-abstract(
-    title: title_english,
-    abstract: abstract_english,
-    keywords: keywords_english,
-    prompt: ("ABSTRACT", "Keywords: "),
-    is-english: true,
-  )
-  pagebreak()
+  //*******************************
+  //*需要引言时打开下面注释 TODO*/
+  //*******************************
+  // make-abstract(
+  //   title: title,
+  //   abstract: abstract,
+  //   keywords: keywords,
+  //   prompt: ("摘要", "关键词："),
+  // )
+  // pagebreak()
+  //*******************************
+  //*需要英文引言时打开下面注释 TODO*/
+  //*******************************
+  // make-abstract(
+  //   title: title_english,
+  //   abstract: abstract_english,
+  //   keywords: keywords_english,
+  //   prompt: ("ABSTRACT", "Keywords: "),
+  //   is-english: true,
+  // )
+  // pagebreak()
 
   make-outline()
   pagebreak()

@@ -4,12 +4,12 @@
 
 #show: thesis.with(
   school: "某某学院",
-  major: "某某专业",
-  id: "1999999",
-  student: "某某某",
+  major: "计算机科学与技术",
+  id: "1850772",
+  student: "张哲源",
   teacher: "某某某",
-  title: "论文模板",
-  subtitle: [基于多种场景的Typst简要教程],
+  title: "课题名称",
+  subtitle: [副标题],
   title_english: "Thesis Template",
   subtitle_english: "with Various Scenes",
   date: datetime(
@@ -55,19 +55,19 @@
   keywords_english: ("Keyword 1", "Keyword 2", "Keyword 3"),
 )
 
-#include "sections/01_intro.typ"
+#include "sections/01.typ"
 #pagebreak()
 
-#include "sections/02_math.typ"
+#include "sections/02.typ"
 #pagebreak()
 
-#include "sections/03_reference.typ"
+#include "sections/03.typ"
 #pagebreak()
 
-#include "sections/04_figure.typ"
+#include "sections/04.typ"
 #pagebreak()
 
-#include "sections/05_conclusion.typ"
+#include "sections/05.typ"
 #pagebreak()
 
 #make-bib()
