@@ -3,7 +3,7 @@
 #set pagebreak(weak: true)
 
 #show: thesis.with(
-  school: "某某学院",
+  school: "电子与信息工程学院",
   major: "计算机科学与技术",
   id: "1850772",
   student: "张哲源",
